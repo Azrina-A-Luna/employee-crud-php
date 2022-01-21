@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
 
     <title>Employee Information</title>
-    <script src="jquery.min.js"></script>
-    <link rel="stylesheet" href="bootstrap.min.css" />
-    <script src="bootstrap.min.js"></script>
-    <link rel="stylesheet" href="jquery.dataTables.min.css">
-    </style>
-    <script type="text/javascript" src="jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="bootstrap-filestyle.min.js"> </script>
+    <!-- <style> -->
+    <link rel="stylesheet" href="bootstrap.min_.css">
+    <link rel="stylesheet" href="jquery.dataTables.min_.css">
     <link href="fonts.css" rel="stylesheet">
+    <!-- </style> -->
+    <script src="bootstrap.min_.js"></script>
+    <script src="jquery.min_.js"></script>
+    <script type="text/javascript" src="jquery.dataTables.min_.js"></script>
+    <script type="text/javascript" src="bootstrap-filestyle.min_.js"> </script>
     <script>
         $(document).ready(function() {
             $('#empTable').dataTable();
