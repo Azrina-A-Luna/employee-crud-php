@@ -671,6 +671,7 @@ if ("undefined" == typeof jQuery)
         return this.isShown ? this.hide() : this.show(a);
       }),
       (c.prototype.show = function (b) {
+        console.log("show >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         var d = this,
           e = a.Event("show.bs.modal", { relatedTarget: b });
         this.$element.trigger(e),

@@ -5,12 +5,12 @@
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <center>
-                    <h4 class="modal-title" id="myModalLabel">Add New</h4>
+                    <h4 class="modal-title" id="myModalLabel">Add New Employee</h4>
                 </center>
             </div>
             <div class="modal-body">
                 <div class="container-fluid">
-                    <form method="POST" action="" class="form-horizontal" enctype="multipart/form-data">
+                    <form method="POST" action="insert.php" class="form-horizontal" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-lg-4">
                                 <label class="control-label" style="position:relative; top:7px;">Name:</label>
@@ -19,8 +19,21 @@
                                 <input type="text" class="form-control" name="name">
                             </div>
                         </div>
+
                         <div style="height:10px;"></div>
+
                         <div class="row">
+                            <div class="col-lg-4">
+                                <label class="control-label" style="position:relative; top:7px;">Email:</label>
+                            </div>
+                            <div class="col-lg-8">
+                                <input type="text" class="form-control" name="email">
+                            </div>
+                        </div>
+
+
+                        <div style="height:10px;"></div>
+                        <!-- <div class="row">
                             <div class="col-lg-4">
                                 <label class="control-label" style="position:relative; top:7px;">Gender:</label>
                             </div>
@@ -30,7 +43,9 @@
                                     <option>Female</option>
                                 </select>
                             </div>
-                        </div>
+                        </div>-->
+
+
                         <div style="height:10px;"></div>
                         <div class="row">
                             <div class="col-lg-4">
@@ -49,7 +64,20 @@
                                 <input type="text" class="form-control" name="phone">
                             </div>
                         </div>
+
                         <div style="height:10px;"></div>
+
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <label class="control-label" style="position:relative; top:7px;">Join Date:</label>
+                            </div>
+                            <div class="col-lg-8">
+                                <input type="text" class="form-control" name="joindate">
+                            </div>
+                        </div>
+
+                        <div style="height:10px;"></div>
+
                         <div class="row">
                             <div class="col-lg-4">
                                 <label class="control-label" style="position:relative; top:7px;">Post:</label>
@@ -58,15 +86,26 @@
                                 <input type="text" class="form-control" name="post">
                             </div>
                         </div>
+
                         <div style="height:10px;"></div>
+
                         <div class="row">
+                            <div class="col-lg-4">
+                                <label class="control-label" style="position:relative; top:7px;">Salary:</label>
+                            </div>
+                            <div class="col-lg-8">
+                                <input type="text" class="form-control" name="salary">
+                            </div>
+                        </div>
+                        <div style="height:10px;"></div>
+                        <!-- <div class="row">
                             <div class="col-lg-4">
                                 <label class="control-label" style="position:relative; top:7px;">Profile Image:</label>
                             </div>
                             <div class="col-lg-8">
                                 <input type="file" class="filestyle" name="pimage" />
                             </div>
-                        </div>
+                        </div> -->
                 </div>
             </div>
             <div class="modal-footer">
@@ -75,7 +114,6 @@
 
                 <button type="submit" class="btn btn-primary">
                     <span class="glyphicon glyphicon-floppy-disk"></span> Save</a>
-
                     </form>
             </div>
         </div>

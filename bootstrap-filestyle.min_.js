@@ -129,11 +129,9 @@
     btnClass: function (value) {
       if (value !== undefined) {
         this.options.btnClass = value;
-        this.$elementFilestyle
-          .find("label")
-          .attr({
-            class: "btn " + this.options.btnClass + " btn-" + this.options.size,
-          });
+        this.$elementFilestyle.find("label").attr({
+          class: "btn " + this.options.btnClass + " btn-" + this.options.size,
+        });
       } else {
         return this.options.btnClass;
       }
@@ -267,14 +265,12 @@
           "border-top-left-radius": ".25rem",
           "border-bottom-left-radius": ".25rem",
         });
-      _self.$elementFilestyle
-        .find('[name="filedrag"]')
-        .css({
-          position: "absolute",
-          width: "100%",
-          height: _self.$elementFilestyle.height() + "px",
-          "z-index": -1,
-        });
+      _self.$elementFilestyle.find('[name="filedrag"]').css({
+        position: "absolute",
+        width: "100%",
+        height: _self.$elementFilestyle.height() + "px",
+        "z-index": -1,
+      });
       if (_self.options.disabled || _self.$element.attr("disabled")) {
         _self.$element.attr("disabled", "true");
         if (_self.options.disabled)
