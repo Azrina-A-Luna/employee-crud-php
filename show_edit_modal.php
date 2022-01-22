@@ -6,7 +6,7 @@
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <center>
-                    <h4 class="modal-title" id="myModalLabel">Edit Employee Info</h4>
+                    <h4 class="modal-title" id="myModalLabel">Update Employee Info</h4>
                 </center>
             </div>
             <div class="modal-body">

@@ -89,7 +89,7 @@
 
                                 <a href="#edit<?php echo $row['id']; ?>" data-toggle="modal" class="btn btn-warning btn-sm">
                                     <span class="glyphicon glyphicon-edit">
-                                    </span> Edit </a>&nbsp;
+                                    </span> Update </a>&nbsp;
 
                                 <a href="#del<?php echo $row['id']; ?>" data-toggle="modal" class="btn btn-danger btn-sm">
                                     <span class="glyphicon glyphicon-trash">
