@@ -25,7 +25,7 @@
 
 <body style="margin:20px auto">
     <center>
-        <h2><span style="font-size:25px; color:blue">
+        <h2><span style="font-size:45px; color: Red ">
                 Employee Information</span>
         </h2>
     </center>
@@ -35,7 +35,7 @@
         <div class="row header col-sm-12" style="text-align:center;color:green">
             <span class="pull-left">
                 <a href="#addnew" data-toggle="modal" class="btn btn-primary btn-sm">
-                    <span class="glyphicon glyphicon-plus"></span> Add New
+                    <span class="glyphicon glyphicon-plus"></span> Add New Employee
                 </a></span>
 
             <div style="height:50px;"></div>
@@ -74,10 +74,8 @@
                     include('database.php');
                     $result = $mysqli->query("select * from employee_basics");
                     while ($row = $result->fetch_assoc()) {
-                        // $img = "http://localhost/employee-crud-php/profile_images/" . $row['id'] . ".jpg";
                     ?>
                         <tr>
-                            <!-- <td> <img src='<?php echo $img ?>' height="50px" width="70px" /></td> -->
                             <td><?php echo $row['name']; ?></td>
                             <td><?php echo $row['email']; ?></td>
                             <td><?php echo $row['address']; ?></td>
